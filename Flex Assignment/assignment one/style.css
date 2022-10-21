@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.hero{
+    margin: 20px;
+}
+
+.images-one{
+    display: flex;
+    justify-content: space-around;
+}
+
+.images-two{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.images-three{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.styling{
+    border: 3px solid black;
+    margin: 15px;
+    flex-wrap: wrap;
+}

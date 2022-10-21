@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    min-height: 100vh;
+    background: linear-gradient(to right, #5e35b0, #3b95d6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inner{
+    background-color: #e7dc82;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar{
+    width: 450px;
+    height: 320px;
+    background-color: #29323f;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.calendar .date-items{
+    margin-top: 1.7rem;
+}
+
+.calendar header{
+    color: #f0f191;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.calendar .date-items .days{
+    color: rgb(209, 209, 209);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.calendar .date-items .items{
+    margin-top: 1rem;
+}
+
+.calendar .date-items .items div{
+    display: flex;
+}
+
+.calendar .date-items .items button{
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+}
+.calendar .date-items .items .last button{
+    width: 14.3%;
+}
+
+.calendar .date-items .items div:nth-child(1) button{
+    width: 14.3%;
+}
+
+.calendar .date-items .items div:nth-child(1){
+    justify-content: flex-end;
+}

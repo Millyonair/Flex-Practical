@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: 0px;
+}
+
+.hero{
+    margin: 20px 40px;
+}
+
+.section-one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.section-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group-p1{
+    padding: 40px 20px;
+    height: 60vh;
+    line-height: 25px;
+
+}
+
+
+.group-p1 h2{
+    padding-bottom: 20px;
+}
+
+
+.group-p2{
+    padding: 40px 20px;
+    height: 60vh;
+    line-height: 25px;
+
+}
+
+.group-p2 h2{
+    padding-bottom: 20px;
+}
+
+
+button{
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    width: 89%;
+    background-color: gray;
+    color: white;
+    border: inset;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.group-one{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.315);
+}
+
+.group-two{
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.315);
+}
+
+.group-one>div img,
+.group-two>div img{
+    width: 100%;
+}
